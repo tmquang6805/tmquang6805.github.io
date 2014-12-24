@@ -330,6 +330,11 @@ ul#nav li.current a { color: #F06000; }
   	-moz-animation: php 2s ease;
   	-webkit-animation: php 2s ease;
 }
+.python {
+  	width: 40%;
+  	-moz-animation: python 2s ease;
+  	-webkit-animation: python 2s ease;
+}
 .jquery {
   	width: 70%;
   	-moz-animation: jquery 2s ease;
@@ -365,6 +370,10 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
+@-moz-keyframes python {
+  0%   { width: 0px;  }
+  100% { width: 40%;  }
+}
 @-moz-keyframes jquery {
   0%   { width: 0px;  }
   100% { width: 70%;  }
@@ -393,6 +402,10 @@ ul#nav li.current a { color: #F06000; }
 @-webkit-keyframes php {
   0%   { width: 0px;  }
   100% { width: 80%;  }
+}
+@-webkit-keyframes python {
+  0%   { width: 0px;  }
+  100% { width: 40%;  }
 }
 @-webkit-keyframes jquery {
   0%   { width: 0px;  }
@@ -711,6 +724,70 @@ call-to-action .button {
 #testimonials blockquote cite a,
 #testimonials blockquote cite a:visited { color: #8B9798; border: none }
 
+/* ------------------------------------------------------------------
+/* g. my-quote
+/* ------------------------------------------------------------------ */
+
+#my-quote {
+   background: #1F1F1F no-repeat center center;
+   background-size: cover !important;
+	-webkit-background-size: cover !important;
+   background-attachment: fixed;
+
+   position: relative;
+   min-height: 200px;
+   width: 100%;
+   overflow: hidden;
+}
+#my-quote .text-container {
+   padding-top: 96px;
+   padding-bottom: 66px;
+}
+#my-quote h1 {
+   font: 18px/24px 'opensans-bold', sans-serif;   
+   text-transform: uppercase;
+   letter-spacing: 3px;
+   color: #fff;
+}
+#my-quote h1 span { display: none; }
+#my-quote .header-col { padding-top: 9px; }
+#my-quote .header-col h1:before {
+   font-family: 'FontAwesome';
+   content: "\f10d";
+	padding-right: 10px;
+	font-size: 72px;
+   line-height: 72px;
+   text-align: left;
+   float: left;
+   color: #fff;
+}
+
+/*	Blockquotes */
+#my-quote blockquote {
+   margin: 0 0px 30px 0px;
+   padding-left: 0;
+   position: relative;
+   text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
+}
+#my-quote blockquote:before { content: none; }
+#my-quote blockquote p {
+   font-family: 'librebaskerville-italic', serif;
+   padding: 0;
+   font-size: 24px;
+   line-height: 48px;
+   color: #fff
+}
+#my-quote blockquote cite {
+   display: block;
+   font-size: 12px;
+   font-style: normal;
+   line-height: 18px;
+   color: #fff;
+   text-align: right;
+}
+#my-quote blockquote cite:before { content: "\2014 \0020"; }
+#my-quote blockquote cite a,
+#my-quote blockquote cite a:visited { color: #8B9798; border: none }
 /* Flex Slider
 /* ------------------------------------------------------------------ */
 
