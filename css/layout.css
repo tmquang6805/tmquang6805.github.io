@@ -336,7 +336,7 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: python 2s ease;
 }
 .jquery {
-  	width: 70%;
+  	width: 65%;
   	-moz-animation: jquery 2s ease;
   	-webkit-animation: jquery 2s ease;
 }
@@ -351,7 +351,7 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: mongodb 2s ease;
 }
 .redis {
-  	width: 80%;
+  	width: 75%;
   	-moz-animation: redis 2s ease;
   	-webkit-animation: redis 2s ease;
 }
@@ -376,7 +376,7 @@ ul#nav li.current a { color: #F06000; }
 }
 @-moz-keyframes jquery {
   0%   { width: 0px;  }
-  100% { width: 70%;  }
+  100% { width: 65%;  }
 }
 @-moz-keyframes angularjs {
   0%   { width: 0px;  }
@@ -388,7 +388,7 @@ ul#nav li.current a { color: #F06000; }
 }
 @-moz-keyframes redis {
   0%   { width: 0px;  }
-  100% { width: 80%;  }
+  100% { width: 75%;  }
 }
 @-moz-keyframes memcached {
   0%   { width: 0px;  }
@@ -409,7 +409,7 @@ ul#nav li.current a { color: #F06000; }
 }
 @-webkit-keyframes jquery {
   0%   { width: 0px;  }
-  100% { width: 70%;  }
+  100% { width: 65%;  }
 }
 @-webkit-keyframes angularjs {
   0%   { width: 0px;  }
@@ -421,7 +421,7 @@ ul#nav li.current a { color: #F06000; }
 }
 @-webkit-keyframes redis {
   0%   { width: 0px;  }
-  100% { width: 80%;  }
+  100% { width: 75%;  }
 }
 @-webkit-keyframes memcached {
   0%   { width: 0px;  }
